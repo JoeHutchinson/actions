@@ -1,9 +1,6 @@
 name: Create Dependabot Config
 
 on:
-  push:
-    paths:
-      - '.github/workflows/create-dependabot.yml'
   workflow_dispatch:
 
 permissions:
